@@ -27,7 +27,6 @@ public class JokePresenterFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_joke_presenter, container, false);
         jokeText = (TextView) rootView.findViewById(R.id.tv_joke);
 

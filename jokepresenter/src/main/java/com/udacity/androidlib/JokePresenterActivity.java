@@ -12,6 +12,8 @@ public class JokePresenterActivity extends AppCompatActivity implements JokePres
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_joke_presenter);
 
+        setTitle("Joke");
+
         joke = getIntent().getStringExtra("JOKE");
     }
 
